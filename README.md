@@ -2,9 +2,12 @@
 A real metagenomic dataset with all known genomes for binning benchmarking
 
 # Data description
+
 The Isolate directory contains four isolate genomes.
+
 The MAG directory contains eight MAGs.
-The Others directory contains base sequencing coverage and average seuencing coverag across the whole metagenome-assembled sequence.
+
+The Others directory contains base sequencing coverage which can be used to calculate the average sequencing coverage across a metagenome-assembled sequence or for 500-bp fragment with 250 bp overlap.
 
 # Affiliation
 Guilin Medical University
