@@ -7,7 +7,7 @@ The Isolate directory contains four isolate genomes.
 
 The MAG directory contains eight MAGs.
 
-The Others directory contains base sequencing coverage which can be used to calculate the average sequencing coverage across a metagenome-assembled sequence or for 500-bp fragment with 250 bp overlap.
+For original data, please refer to http://dx.doi.org/10.5524/100049.
 
 # Affiliation
 Guilin Medical University
