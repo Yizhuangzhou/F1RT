@@ -1,0 +1,1 @@
+perl bin/06.FC2345_PossibleScaf.pl FC2_PrimaryMAG.xls FC2_PrimaryMAG.log FC3_PrimaryMAG.xls FC3_PrimaryMAG.log FC5_PrimaryMAG.xls FC5_PrimaryMAG.log FC7_PrimaryMAG.xls FC7_PrimaryMAG.log FC2357_PossibleScaf.xls

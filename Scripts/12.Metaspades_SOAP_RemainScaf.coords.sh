@@ -1,0 +1,1 @@
+perl bin/01.genomealign_sortbyr.pl metaspades_RemainScaf.fa SOAP_RemainScaf.fa Metaspades_SOAP_RemainScaf

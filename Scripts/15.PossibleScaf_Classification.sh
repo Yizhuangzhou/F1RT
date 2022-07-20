@@ -1,0 +1,1 @@
+perl bin/15.PossibleScaf_Classification.pl FC.list FC2357_PossibleScaf.xls data/F1RT_CoreDepthInterval.xls PossibleScaf_Classification.xls

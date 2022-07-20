@@ -1,0 +1,1 @@
+perl bin/05.Isolates_PrimaryMAG_MeanDepth.pl data/F1RT_depth_mean_rawdepth_500bp.xls Isolates_PrimaryMAG.xls Isolates_PrimaryMAG_MeanDepth.xls

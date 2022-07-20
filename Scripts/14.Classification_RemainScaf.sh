@@ -1,0 +1,1 @@
+perl bin/14.Classification_RemainScaf.pl data/F1RT_CoreDepthInterval.xls Classification_RemainScaf_len.xls Classification_RemainScaf_source.xls

@@ -1,0 +1,1 @@
+perl bin/07.Metaspades_RemainScaf_MeanDepth.pl Isolates_PrimaryMAG.xls FC2357_PossibleScaf.xls Metaspades_RemainScaf_MeanDepth.xls

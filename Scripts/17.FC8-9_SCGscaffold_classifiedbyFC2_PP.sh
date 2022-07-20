@@ -1,0 +1,1 @@
+perl bin/17.FC8-9_SCGscaffold_classifiedbyFC2_PP.pl FC2_MAG_afterStep4.xls data/metaspades_scaffolds_more500.fasta data/FC8-9_SCGtype_SCGscaffoldDepth_source.xls FC8-9_SCGscaffold_classifiedbyFC2_PP.xls

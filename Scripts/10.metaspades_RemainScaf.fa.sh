@@ -1,0 +1,1 @@
+perl bin/10.RemainScaf.pl Isolates_PrimaryMAG.xls FC2357_PossibleScaf.xls data/metaspades_scaffolds_more500.fasta metaspades_RemainScaf.fa
