@@ -3,9 +3,9 @@ Constructing metagenome-assembled genomes for all components in a real bacterial
 
 # Data description
 
-The data directory contains data for MAG reconstruction.
+The data directory contains required data for MAG reconstruction.
 
-The bin directory contains Perl programs for MAG reconstruction.
+The bin directory contains all required Perl programs for MAG reconstruction.
 
 The Scripts directory contains all scripts for MAG reconstruction.
 
@@ -13,7 +13,7 @@ The Isolate directory contains four isolate genomes.
 
 The MAG directory contains nine MAGs.
 
-For original data including all high-quality reads and original assemblies by SOAPdenovo, please refer to http://dx.doi.org/10.5524/100049.
+For original data including all high-quality reads and assemblies by SOAPdenovo, please refer to http://dx.doi.org/10.5524/100049.
 
 # Reconstruction process
 
@@ -53,14 +53,23 @@ The file "data/F1RT_depth_mean_rawdepth_500bp.xls" contains averge depth for all
 
 sh 06.FC2357_PossibleScaf.sh
 
-7. Get the average depth for all unaligned scaffolds assembled by metaSPAdes
+7. Get the scaffold-level depth for all unaligned scaffolds assembled by metaSPAdes
 
 sh 07.Metaspades_RemainScaf_MeanDepth.sh
 
-Then using R script in to draw Additional file 1: Figure S3. Please use the R code in "Metaspades_RemainScaf_MeanDepth.xls" section of 
+Then use the R code corresponding to "Metaspades_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Additional file 1: Figure S3. 
 
+8. Geome alignment between isolate genomes and F1RT metagenome assembled by SOAPdenovo
 
-9. 
+sh 08.genomealign_4SOAP.sh
+
+9. Get the scaffold-level depth for all unaligned scaffolds assembled by SOAPdenovo
+
+sh 09.SOAP_RemainScaf_MeanDepth.sh
+
+Then use the R code corresponding to "Metaspades_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Additional file 1: Figure S3.
+
+10. 
 # Affiliation
 Guilin Medical University
 
