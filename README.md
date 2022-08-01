@@ -57,19 +57,8 @@ sh 06.FC2357_PossibleScaf.sh
 
 sh 07.Metaspades_RemainScaf_MeanDepth.sh
 
-Then using R script in to draw Additional file 1: Figure S3. The R code is as follows:
-###################################################################################
-##                                                                                #
-##                    Metaspades_RemainScaf_MeanDepth.xls                         #
-##                                                                                #
-###################################################################################
-d<-read.table("Metaspades_RemainScaf_MeanDepth.xls",sep="\t",header=F)
-library(tidyverse)
-pdf("Metaspades_RemainScaf_MeanDepth.pdf")
-hist(d$V2,breaks=seq(floor(min(d$V2)),ceiling(max(d$V2)),by=1),main="",xlab="Sequencing coverage",ylab="Frequency",xaxt="n")
-axis(side=1,at=seq(0,13000,by=1000))
-box()
-dev.off()
+Then using R script in to draw Additional file 1: Figure S3. Please use the R code in "Metaspades_RemainScaf_MeanDepth.xls" section of 
+
 
 9. 
 # Affiliation
