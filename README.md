@@ -43,7 +43,22 @@ Our results showed that there are no scaffolds with multiple sources.
 
 sh 04.Isolates_PrimaryMAG.sh
 
+5. Get the average depth for each scaffold in primary MAGs
 
+sh 05.Isolates_PrimaryMAG_MeanDepth.sh
+
+The file "data/F1RT_depth_mean_rawdepth_500bp.xls" contains averge depth for all scaffolds assembled by metaSPAdes
+
+6. Get the scaffolds with <90% AF 
+
+sh 06.FC2357_PossibleScaf.sh
+
+7. Get the average depth for all unaligned scaffolds assembled by metaSPAdes
+
+sh 07.Metaspades_RemainScaf_MeanDepth.sh
+
+Then using R script in to draw Additional file 1: Figure S3
+9. 
 # Affiliation
 Guilin Medical University
 
