@@ -90,7 +90,11 @@ sh 13.Metaspades_Unique_RemainScaf_MeanDepth.sh
 Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1C.
 
 
-14. 
+14. Classify unaligned scaffolds 
+
+sh 14.Classification_RemainScaf.sh
+
+
 # Affiliation
 Guilin Medical University
 
