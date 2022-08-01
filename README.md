@@ -13,6 +13,8 @@ The Isolate directory contains four isolate genomes.
 
 The MAG directory contains nine MAGs.
 
+The Data_4BinningBenckmarking directory contains data required for binning and benckmarking.
+
 For original data including all high-quality reads and assemblies by SOAPdenovo, please refer to http://dx.doi.org/10.5524/100049.
 
 # Reconstruction process
