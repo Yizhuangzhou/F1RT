@@ -1,11 +1,11 @@
 # F1RT dataset
-A real metagenomic dataset with all known genomes for binning benchmarking
+Constructing metagenome-assembled genomes for all components in a real bacterial consortium for binning benchmarking
 
 # Data description
 
 The Isolate directory contains four isolate genomes.
 
-The MAG directory contains eight MAGs.
+The MAG directory contains nine MAGs.
 
 For original data, please refer to http://dx.doi.org/10.5524/100049.
 
