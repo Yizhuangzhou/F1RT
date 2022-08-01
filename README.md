@@ -3,6 +3,12 @@ Constructing metagenome-assembled genomes for all components in a real bacterial
 
 # Data description
 
+The data directory contains data for MAG reconstruction.
+
+The bin directory contains Perl programs for MAG reconstruction
+
+The 
+
 The Isolate directory contains four isolate genomes.
 
 The MAG directory contains nine MAGs.
