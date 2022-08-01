@@ -49,7 +49,7 @@ sh 05.Isolates_PrimaryMAG_MeanDepth.sh
 
 The file "data/F1RT_depth_mean_rawdepth_500bp.xls" contains average depth for all scaffolds assembled by metaSPAdes.
 
-Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1A.
+Then use the R code corresponding to "Isolates_PrimaryMAG_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1A.
 
 6. Get the scaffolds with <90% AF 
 
@@ -71,7 +71,26 @@ sh 09.SOAP_RemainScaf_MeanDepth.sh
 
 Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1C.
 
-10. 
+10. Get the sequences in fasta format of the unaligned scaffolds assembled by metaSPAdes
+
+sh 10.metaspades_RemainScaf.fa.sh
+
+11. Get the sequences in fasta format of the unaligned scaffolds assembled by SOAPdenovo
+
+sh 11.SOAP_RemainScaf.fa.sh
+
+12. Geome alignment between unaligned scaffolds assembled by metaSPAdes and unaligned scaffolds assembled by SOAPdenovo
+
+sh 12.Metaspades_SOAP_RemainScaf.coords.sh
+
+13. Get the scaffold-level depth for unaligned scaffolds uniquely assembled by metaSPAdes
+
+sh 13.Metaspades_Unique_RemainScaf_MeanDepth.sh
+
+Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1C.
+
+
+14. 
 # Affiliation
 Guilin Medical University
 
