@@ -116,6 +116,17 @@ FC8-9   FC8-9_PrimaryMAG_withType.xls
 
 sh 15.PossibleScaf_Classification.sh
 
+16. Get the MAGs after step 4 (refer to Additional file 1: Figure S1)
+
+sh 16.MAG_afterStep4.sh
+
+17. Classify SCG scaffolds harboring SCGs with >1 copies based on FC2 MAG
+
+sh 17.FC8-9_SCGscaffold_classifiedbyFC2_PP.sh
+
+18. Classify FC8 and FC9
+
+sh 18.Classify_FC8-9.sh
 
 # Affiliation
 Guilin Medical University
