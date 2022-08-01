@@ -47,7 +47,9 @@ sh 04.Isolates_PrimaryMAG.sh
 
 sh 05.Isolates_PrimaryMAG_MeanDepth.sh
 
-The file "data/F1RT_depth_mean_rawdepth_500bp.xls" contains averge depth for all scaffolds assembled by metaSPAdes
+The file "data/F1RT_depth_mean_rawdepth_500bp.xls" contains average depth for all scaffolds assembled by metaSPAdes.
+
+Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1A.
 
 6. Get the scaffolds with <90% AF 
 
@@ -67,7 +69,7 @@ sh 08.genomealign_4SOAP.sh
 
 sh 09.SOAP_RemainScaf_MeanDepth.sh
 
-Then use the R code corresponding to "Metaspades_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Additional file 1: Figure S3.
+Then use the R code corresponding to "SOAP_RemainScaf_MeanDepth.xls" section in Rscript_4Reconstruction.RR script to draw Fig. 1C.
 
 10. 
 # Affiliation
