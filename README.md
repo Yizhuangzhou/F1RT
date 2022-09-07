@@ -21,9 +21,11 @@ For original data including all high-quality reads and assemblies by SOAPdenovo,
 
 0. Uncompress the files
 
+  ```
   gzip -d data/metaspades_scaffolds_more500.fasta.gz
 
   gzip -d data/SOAP_scaffold_more500.fasta.gz
+  ```
 
 1. Geome alignment between isolate genomes and F1RT metagenome assembled by metaSPAdes
 
