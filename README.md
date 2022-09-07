@@ -130,9 +130,8 @@ sh 14.Classification_RemainScaf.sh
 
 Create a file named FC.list containning the following information separated by Tab:
 
-FC1     FC1_PrimaryMAG_withType.xls
-
-FC2     FC2_PrimaryMAG_withType.xls
+|FC1|FC1_PrimaryMAG_withType.xls|
+|FC2|FC2_PrimaryMAG_withType.xls|
 
 FC3     FC3_PrimaryMAG_withType.xls
 
