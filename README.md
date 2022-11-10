@@ -1,6 +1,9 @@
 # F1RT dataset
 Constructing metagenome-assembled genomes for all components in a real bacterial consortium for binning benchmarking
 
+# Please Cite
+
+
 # Data description
 
 The data directory contains required data for MAG reconstruction.
