@@ -2,7 +2,8 @@
 Constructing metagenome-assembled genomes for all components in a real bacterial consortium for binning benchmarking
 
 # Please Cite
-
+If you use F1RT in your publication, please cite:
+Wu, Z., Wang, Y., Zeng, J. et al. Constructing metagenome-assembled genomes for almost all components in a real bacterial consortium for binning benchmarking. BMC Genomics 23, 746 (2022). https://doi.org/10.1186/s12864-022-08967-x
 
 # Data description
 
